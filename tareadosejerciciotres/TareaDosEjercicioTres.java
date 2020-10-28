@@ -6,12 +6,15 @@
 
 package tareadosejerciciotres;
 
+import cr.ac.ucenfotec.bl.controlador.Controlador;
+
 
 public class TareaDosEjercicioTres {
 
     
     public static void main(String[] args) {
-        
+        Controlador controlador = new Controlador();
+        controlador.ejecutar();
     }
 
 }
